@@ -13,10 +13,10 @@
 <manifest>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
-  
+  <remote fetch="../chaosape" name="chaosape"/>
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj" revision="3390e3dbb46530b10e85c4941e8dcf536e54af67" upstream="master"/>
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="sel4proj/tk1_ps" upstream="master"/>
   <project name="camkes-tool.git" path="tools/camkes" revision="713ab9ee370ce5f4c03ee46318b261cc41021fc4" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
