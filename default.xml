@@ -16,7 +16,7 @@
   <remote fetch="../chaosape" name="chaosape"/>
   <default remote="seL4" revision="master"/>
   
-  <project name="camkes-arm-vm.git" path="projects/vm" remote="chaosape/tk1_ps" upstream="master"/>
+  <project name="camkes-arm-vm.git" path="projects/vm" remote="chaosape" upstream="tk1_ps"/>
   <project name="camkes-tool.git" path="tools/camkes" revision="713ab9ee370ce5f4c03ee46318b261cc41021fc4" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
     <linkfile dest="camkes_README.md" src="docs/index.md"/>
