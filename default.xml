@@ -13,7 +13,7 @@
 <manifest>
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
-  
+  <remote fetch="../chaosape" name="chaosape"/>
   <default remote="seL4" revision="master"/>
      
   <project name="camkes-arm-vm.git" path="projects/vm" remote="chaosape" revision="tk1_rev" upstream="master"/>
