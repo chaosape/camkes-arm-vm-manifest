@@ -49,6 +49,7 @@ See "LICENSE_BSD2.txt" for details.
   <project
       name="musllibc.git"
       path="projects/musllibc"
+      revision="sel4"
       upstream="sel4"/>
 
   <project
