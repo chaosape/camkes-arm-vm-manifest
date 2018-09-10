@@ -72,12 +72,6 @@ See "LICENSE_BSD2.txt" for details.
 
   <project name="util_libs.git" path="projects/util_libs" upstream="master"/>
 
-  <project
-      name="DARPA-bsp.git"
-      path="projects/DARPA-tk1"
-      remote="smaccm"
-      upstream="master"/>
-
   <project name="clmcp" path="clmcp" remote="chaosape" upstream="master"/>
 
   <project
