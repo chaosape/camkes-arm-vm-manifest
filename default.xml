@@ -16,9 +16,10 @@ See "LICENSE_BSD2.txt" for details.
   <remote fetch="../chaosape" name="chaosape"/>
   <remote fetch="../smaccm" name="smaccm"/>  
   <remote fetch="../afrl-rq" name ="afrl-rq"/>
+
   
-  <default remote="seL4" revision="master"/>
-  
+  <default remote="seL4" revision="master"/>  
+
   <project
       name="DARPA-bsp.git"
       path="projects/DARPA-tk1"
