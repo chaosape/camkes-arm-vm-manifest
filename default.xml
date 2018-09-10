@@ -30,8 +30,8 @@ See "LICENSE_BSD2.txt" for details.
       name="camkes-arm-vm.git"
       path="projects/vm"
       remote="chaosape"
-      revision="WayPointManager"
-      upstream="master"/>
+      revision="WaypointManager"
+      upstream="WaypointManager"/>
   
   <project name="camkes-tool.git" path="tools/camkes" upstream="master">
     <linkfile dest="CMakeLists.txt" src="camkes-top-level.cmake"/>
